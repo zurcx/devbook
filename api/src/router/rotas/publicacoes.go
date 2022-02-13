@@ -44,14 +44,14 @@ var rotasPublicacoes = []Rota{
 		RequerAutenticacao: true,
 	},
 	{
-		URI:                "/puclicacoes/{publicacaoId}/curtir",
+		URI:                "/publicacoes/{publicacaoId}/curtir",
 		Metodo:             http.MethodPost,
 		Funcao:             controllers.CurtirPublicacao,
 		RequerAutenticacao: true,
 	},
 
 	{
-		URI:                "/puclicacoes/{publicacaoId}/descurtir",
+		URI:                "/publicacoes/{publicacaoId}/descurtir",
 		Metodo:             http.MethodPost,
 		Funcao:             controllers.DescurtirPublicacao,
 		RequerAutenticacao: true,
